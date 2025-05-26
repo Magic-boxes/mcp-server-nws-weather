@@ -8,3 +8,15 @@ python ./server.py --host=0.0.0.0 --port=8080
 ```shell
 python ./client.py  http://localhost:8080/sse/
 ```
+
+# Configure：
+```json
+{
+  "mcpServers": {
+    "nws-weather": {
+      "command": "python",
+      "args": ["./server-stdio.py"]
+    }
+  }
+}
+```
